@@ -1,8 +1,15 @@
 {
   "name": "rare-hanzi-zhuyin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@9.15.9",
   "sideEffects": false,
+  "license": "MIT",
+  "author": "penjj <peng.j.1995@gmail.com>",
+  "repository": {
+    "url": "https://github.com/penjj/rare-hanzi-zhuyin.git",
+    "type": "git"
+  },
+  "keywords": ["生僻字", "注音", "汉字", "人名", "rare hanzi", "zhuyin"],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
